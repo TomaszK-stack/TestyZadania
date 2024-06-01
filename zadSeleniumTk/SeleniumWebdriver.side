@@ -1,0 +1,676 @@
+{
+  "id": "ab935730-86ee-41d5-8d76-b3fc494bb536",
+  "version": "2.0",
+  "name": "TestTK",
+  "url": "https://www.rmf24.pl",
+  "tests": [{
+    "id": "9ed1f82d-4019-4561-9378-006c4e6dd6f4",
+    "name": "Test1",
+    "commands": [{
+      "id": "406c5ca6-ca85-4f6a-bbf6-7888e24e1780",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4a1c7831-a543-4cd2-af30-dc04426fbec1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "997x820",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "938f363d-4fab-467b-92d2-ccc731db6583",
+      "comment": "",
+      "command": "click",
+      "target": "id=gr-btn-agree",
+      "targets": [
+        ["id=gr-btn-agree", "id"],
+        ["css=#gr-btn-agree", "css:finder"],
+        ["xpath=//button[@id='gr-btn-agree']", "xpath:attributes"],
+        ["xpath=//div[@id='gr-consent-layer']/div[2]/div[2]/button[6]", "xpath:idRelative"],
+        ["xpath=//button[6]", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win7448",
+      "windowTimeout": 2000
+    }, {
+      "id": "2b7ed520-3104-44ce-80a8-3b9be7c97955",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "40d4203c-e62b-47be-ba9b-ccae1f157f9f",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win7448}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d82bf874-7634-40d0-b25d-463fbfb8e685",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "34e39d5e-e537-4ffd-9ffe-3da764c66d56",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e2200880-2222-4166-8487-c9f38fe54bfc",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.isBigPhotoMain .playMixerIcon",
+      "targets": [
+        ["css=.isBigPhotoMain .playMixerIcon", "css:finder"],
+        ["xpath=//div[@id='mixerObjectListCategory3']/div[2]/div/div/ul/li/div/div/div/div/a/span", "xpath:idRelative"],
+        ["xpath=//div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1b85f8d-ca9f-4cff-b3de-6c833e1c8566",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.isBigPhotoMain .playMixerIcon",
+      "targets": [
+        ["css=.isBigPhotoMain .playMixerIcon", "css:finder"],
+        ["xpath=//div[@id='mixerObjectListCategory3']/div[2]/div/div/ul/li/div/div/div/div/a/span", "xpath:idRelative"],
+        ["xpath=//div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b11f1036-bc67-4d86-91fa-3213d2129584",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menuToggle",
+      "targets": [
+        ["css=.menuToggle", "css:finder"],
+        ["xpath=//nav[@id='menu']/div/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//nav/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93ef29be-90e3-4039-9b2c-ae09e46c0e4b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menu-button",
+      "targets": [
+        ["css=.menu-button", "css:finder"],
+        ["xpath=//label[@id='services']/div", "xpath:idRelative"],
+        ["xpath=//label/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a52476f-c0f8-47d1-9c73-c2a524399c8b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.arrow-1",
+      "targets": [
+        ["css=.arrow-1", "css:finder"],
+        ["xpath=//span[@onclick=\"showSubmenu('1')\"]", "xpath:attributes"],
+        ["xpath=//nav[@id='menu']/div/div[2]/ul/li[2]/span", "xpath:idRelative"],
+        ["xpath=//li[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b1cf8bd-4f27-4340-b3fb-401225405c3c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-xs-12 > .mainStart-poznan",
+      "targets": [
+        ["css=.col-xs-12 > .mainStart-poznan", "css:finder"],
+        ["xpath=//a[contains(text(),'Poznań')]", "xpath:link"],
+        ["xpath=//nav[@id='menu']/div/div[2]/ul/div[2]/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/regiony/poznan')])[2]", "xpath:href"],
+        ["xpath=//ul/div[2]/ul/li[7]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "109fafc8-3ae9-46c1-82fc-2397d8e248dd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.col-md-6 .img-responsive",
+      "targets": [
+        ["css=.col-md-6 .img-responsive", "css:finder"],
+        ["xpath=//img[@alt='Ciężarówka w rowie. Były utrudnienia na krajowej \"10\" ']", "xpath:img"],
+        ["xpath=//div[@id='k0']/div/div/div/div/a/picture/img", "xpath:idRelative"],
+        ["xpath=//ul/div/div/div/div/div/a/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a74d9380-faa2-4098-903b-fdf0d6f79fd3",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.col-md-6 .img-responsive",
+      "targets": [
+        ["css=.col-md-6 .img-responsive", "css:finder"],
+        ["xpath=//img[@alt='Ciężarówka w rowie. Były utrudnienia na krajowej \"10\" ']", "xpath:img"],
+        ["xpath=//div[@id='k0']/div/div/div/div/a/picture/img", "xpath:idRelative"],
+        ["xpath=//ul/div/div/div/div/div/a/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "46f46187-9453-4d98-8041-709cd188a55c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,600)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "259b0e1f-8f6a-43c5-a044-82e5ba00a1e4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Piękna opalenizna bez plam i smug – jaki balsam brązujący wybrać dla bladej skóry?",
+      "targets": [
+        ["linkText=Piękna opalenizna bez plam i smug – jaki balsam brązujący wybrać dla bladej skóry?", "linkText"],
+        ["css=.i4 > .contDetails a", "css:finder"],
+        ["xpath=//a[contains(text(),'Piękna opalenizna bez plam i smug – jaki balsam brązujący wybrać dla bladej skóry?')]", "xpath:link"],
+        ["xpath=//div[@id='k3']/li/div[2]/div[2]/div/h3/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/regiony/poznan/news-piekna-opalenizna-bez-plam-i-smug-jaki-balsam-brazujacy-wybr,nId,7475782')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Piękna opalenizna bez plam i smug – jaki balsam brązujący wybrać dla bladej skóry?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a60aefb7-11f8-40ab-90a5-5eb4f79fd3d5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i2:nth-child(1) > span",
+      "targets": [
+        ["css=.i2:nth-child(1) > span", "css:finder"],
+        ["xpath=//div[@id='mainContent']/div[2]/div/section/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Regiony w RMF24')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "313d78a8-3d8e-4334-8abd-04887001184f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,6)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "582cc1aa-dc54-410d-a2a3-95685e0d0d5f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,800)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f62a73e7-6397-446a-ae2c-f54ff1e492b0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Gigantyczne korki na zakopiance. Gdzie kierowcy postoją najdłużej?",
+      "targets": [
+        ["linkText=Gigantyczne korki na zakopiance. Gdzie kierowcy postoją najdłużej?", "linkText"],
+        ["css=.hidden-lg > .title a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Gigantyczne korki na zakopiance. Gdzie kierowcy postoją najdłużej?')])[2]", "xpath:link"],
+        ["xpath=//div[@id='sectionMain']/ul/div/div/div/div[2]/div/div/div[2]/h2/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/regiony/zakopane/news-gigantyczne-korki-na-zakopiance-gdzie-kierowcy-postoja-najdl,nId,7544105')])[3]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[2]/h2/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d33f7449-80c8-4c76-aded-5a9305bc6bca",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menuToggle",
+      "targets": [
+        ["css=.menuToggle", "css:finder"],
+        ["xpath=//nav[@id='menu']/div/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//nav/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "faf769fe-9d3f-43ae-abdb-0805f706397a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menuToggle",
+      "targets": [
+        ["css=.menuToggle", "css:finder"],
+        ["xpath=//nav[@id='menu']/div/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//nav/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4da2cac-f309-4f08-a83c-c80867953a4e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,500)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "55dec8d0-5682-4b59-a23c-b272bb9fc8a5",
+    "name": "Test2",
+    "commands": [{
+      "id": "e7a9d35c-db60-4625-b722-2bad5870e38e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ee8d67c2-54b4-431f-b7a2-dc84aed9a6a7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "997x820",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e62ea02c-4b5d-4d2e-9da7-a616b527ae17",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icons",
+      "targets": [
+        ["css=.icons", "css:finder"],
+        ["xpath=//nav[@id='menu']/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//nav/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e01ef22-4108-4373-83c0-9be3b208fac8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menuToggle",
+      "targets": [
+        ["css=.menuToggle", "css:finder"],
+        ["xpath=//nav[@id='menu']/div/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//nav/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da3d36d9-6f31-4e49-aedc-0ba15e4df822",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icons",
+      "targets": [
+        ["css=.icons", "css:finder"],
+        ["xpath=//nav[@id='menu']/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//nav/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2bf938d8-e041-40ac-8dc5-1bb9ff2f9353",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menu-button",
+      "targets": [
+        ["css=.menu-button", "css:finder"],
+        ["xpath=//label[@id='services']/div", "xpath:idRelative"],
+        ["xpath=//label/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9df8fdb-5ca4-4849-9691-d2135ead970f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hidden-xs > .sluchajR",
+      "targets": [
+        ["css=.hidden-xs > .sluchajR", "css:finder"],
+        ["xpath=//div[@id='sluchajRR']/div/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9a4b81e-b3ee-4568-b74d-a5f5a69000fa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.listRadioS > li:nth-child(2) .wlaczR",
+      "targets": [
+        ["css=.listRadioS > li:nth-child(2) .wlaczR", "css:finder"],
+        ["xpath=//div[@id='sluchajRR']/ul/li[2]/a/span/span", "xpath:idRelative"],
+        ["xpath=//div[3]/ul/li[2]/a/span/span", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win7721",
+      "windowTimeout": 2000
+    }, {
+      "id": "26ceadf6-a804-4a61-b516-d7dea17bedb7",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win7721}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "09676ca0-9e39-4300-9d83-ca18406aba5a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,800)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "122a4e38-a6b0-4be4-a960-4488c459360b",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "5bb0d8a4-b7f2-4473-8397-392d61c7fb01",
+      "comment": "",
+      "command": "click",
+      "target": "id=wyszukaj",
+      "targets": [
+        ["id=wyszukaj", "id"],
+        ["name=wyszukaj", "name"],
+        ["css=#wyszukaj", "css:finder"],
+        ["xpath=//input[@id='wyszukaj']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[3]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc5a6fb1-f0b2-4bcc-b7f5-247eefb172ce",
+      "comment": "",
+      "command": "type",
+      "target": "id=wyszukaj",
+      "targets": [
+        ["id=wyszukaj", "id"],
+        ["name=wyszukaj", "name"],
+        ["css=#wyszukaj", "css:finder"],
+        ["xpath=//input[@id='wyszukaj']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[3]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "24"
+    }, {
+      "id": "d80f295b-a682-42bb-8ab7-29cd5bdd350b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.szukajB > .material-icons",
+      "targets": [
+        ["css=.szukajB > .material-icons", "css:finder"],
+        ["xpath=//div[@id='content']/div[3]/form/div/div[2]/button/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"],
+        ["xpath=//i[contains(.,'search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa36b6ee-e896-45d0-ad19-9fa86ddf3139",
+      "comment": "",
+      "command": "click",
+      "target": "css=.day-past:nth-child(20) a > .day",
+      "targets": [
+        ["css=.day-past:nth-child(20) a > .day", "css:finder"],
+        ["xpath=//ul[@id='menuUL']/li[20]/div/a/span", "xpath:idRelative"],
+        ["xpath=//li[20]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'25')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4a66ea8-5e05-4c09-b5d3-f0cc06bd60a8",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.title-28930",
+      "targets": [
+        ["css=.title-28930", "css:finder"],
+        ["xpath=//div[@id='element-28930']/div[2]/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "19ae57fb-2d89-41ff-bd96-8d63c7a2f724",
+      "comment": "",
+      "command": "click",
+      "target": "css=#next > span",
+      "targets": [
+        ["css=#next > span", "css:finder"],
+        ["xpath=//div[@id='next']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'❯')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a940ac81-04e2-4698-b2c1-11b9a8773214",
+      "comment": "",
+      "command": "click",
+      "target": "css=.szukajB > .material-icons",
+      "targets": [
+        ["css=.szukajB > .material-icons", "css:finder"],
+        ["xpath=//div[@id='content']/div[3]/form/div/div[2]/button/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"],
+        ["xpath=//i[contains(.,'search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea5b9470-5818-4a54-a9b2-d7bd196eabd2",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=listaCont",
+      "targets": [
+        ["id=listaCont", "id"],
+        ["css=#listaCont", "css:finder"],
+        ["xpath=//div[@id='listaCont']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[4]", "xpath:idRelative"],
+        ["xpath=//div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "00a229b8-c1e3-44fb-9594-b30a77fa4f66",
+    "name": "Test3",
+    "commands": [{
+      "id": "cbb99d74-a318-4bbd-81b2-65a53cd05116",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ffdb6366-f357-4f32-8814-6115a07056b0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "997x820",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2c96cd7a-84e2-4899-8f75-ecdb5a001da4",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.logo > a .img-responsive",
+      "targets": [
+        ["css=.logo > a .img-responsive", "css:finder"],
+        ["xpath=(//img[@alt='RMF 24'])[2]", "xpath:img"],
+        ["xpath=//nav[@id='menu']/div/div/div/a/picture/img", "xpath:idRelative"],
+        ["xpath=//nav/div/div/div/a/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d2aa7fb-5e4c-49b0-9c34-167baac17ade",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4949)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2fe1c8ca-8336-4212-ae63-e9057bbc8328",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.boxHeader:nth-child(2) > .yellow-font",
+      "targets": [
+        ["css=.boxHeader:nth-child(2) > .yellow-font", "css:finder"],
+        ["xpath=//div[@id='naj']/div[2]/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fcfd6f7e-dfc7-436b-84f2-42927a0275cc",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.footerLogoLink > img",
+      "targets": [
+        ["css=.footerLogoLink > img", "css:finder"],
+        ["xpath=//img[@alt='Radio Muzyka Fakty']", "xpath:img"],
+        ["xpath=//body[@id='top']/div[4]/div[2]/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9481ea55-c6a3-46da-a4a1-0489461564b6",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "b041b81b-1331-427c-91bb-4aa18102a712",
+    "name": "Test4",
+    "commands": [{
+      "id": "2830e080-bd89-4180-ba30-f7cd227f1271",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "02b78e34-a843-4816-9b4e-ca7ba2e73407",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "997x820",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "100f35d5-1b3b-40f4-9431-317beecc381f",
+      "comment": "",
+      "command": "click",
+      "target": "id=RMF_24_sg_top_bill",
+      "targets": [
+        ["id=RMF_24_sg_top_bill", "id"],
+        ["css=#RMF_24_sg_top_bill", "css:finder"],
+        ["xpath=//div[@id='RMF_24_sg_top_bill']", "xpath:attributes"],
+        ["xpath=//div[@id='adsTop']/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "675d1419-b6d6-4e69-a235-3389300cf350",
+      "comment": "",
+      "command": "click",
+      "target": "css=.isBigPhotoMain .playMixerIcon",
+      "targets": [
+        ["css=.isBigPhotoMain .playMixerIcon", "css:finder"],
+        ["xpath=//div[@id='mixerObjectListCategory3']/div[2]/div/div/ul/li/div/div/div/div/a/span", "xpath:idRelative"],
+        ["xpath=//div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34629201-cb27-41ed-b473-1f6026709311",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Pogoda",
+      "targets": [
+        ["linkText=Pogoda", "linkText"],
+        ["css=.i3:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='mainContent']/div[2]/div/section/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/pogoda')])[3]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4662143d-f8b8-4b25-ab83-90809c1480be",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Pogoda",
+      "targets": [
+        ["linkText=Pogoda", "linkText"],
+        ["css=.i3:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='mainContent']/div[2]/div/section/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/pogoda')])[3]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5e40817-c03c-4dec-a86b-b9300af8b7a2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.isAutor:nth-child(2) .article-author-name",
+      "targets": [
+        ["css=.isAutor:nth-child(2) .article-author-name", "css:finder"],
+        ["xpath=//article[@id='article-single-7544131']/header/div/div/div/div/a/span", "xpath:idRelative"],
+        ["xpath=//div/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Cezary Faber')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c392162-87b5-4324-aa10-6183de1c7481",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.isAutor:nth-child(2) .article-author-name",
+      "targets": [
+        ["css=.isAutor:nth-child(2) .article-author-name", "css:finder"],
+        ["xpath=//article[@id='article-single-7544131']/header/div/div/div/div/a/span", "xpath:idRelative"],
+        ["xpath=//div/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Cezary Faber')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d55b3399-1aa5-4eb5-abcc-6fcee63537ad",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.isAutor:nth-child(2) .article-author-name",
+      "targets": [
+        ["css=.isAutor:nth-child(2) .article-author-name", "css:finder"],
+        ["xpath=//article[@id='article-single-7544131']/header/div/div/div/div/a/span", "xpath:idRelative"],
+        ["xpath=//div/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Cezary Faber')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b567100-7d8f-409b-b5b2-8cc2e4f57b35",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.facebook > a",
+      "targets": [
+        ["css=.facebook > a", "css:finder"],
+        ["xpath=//a[@onclick=\"shereEvents('facebook')\"]", "xpath:attributes"],
+        ["xpath=//div[@id='commonLinkFactory1']/div/div/ul/li/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.facebook.com/share.php?u=https://www.rmf24.pl/pogoda/news-6-centymetrowy-grad-i-ulewy-nad-polska-przechodza-silne-burz,nId,7544131')]", "xpath:href"],
+        ["xpath=//div/div/div/ul/li/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f1f4bc1-3a65-43d1-9078-ce83fb188bc4",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.isAutor:nth-child(2) .article-author-name",
+      "targets": [
+        ["css=.isAutor:nth-child(2) .article-author-name", "css:finder"],
+        ["xpath=//article[@id='article-single-7544131']/header/div/div/div/div/a/span", "xpath:idRelative"],
+        ["xpath=//div/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Cezary Faber')]", "xpath:innerText"]
+      ],
+      "value": "Cezary Faber"
+    }, {
+      "id": "3d181599-5e6b-49ed-acd1-e67d5b7f48cb",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "12827432-ae6d-4d34-9121-94c8d342022d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9ed1f82d-4019-4561-9378-006c4e6dd6f4"]
+  }],
+  "urls": ["https://www.rmf24.pl/"],
+  "plugins": []
+}
